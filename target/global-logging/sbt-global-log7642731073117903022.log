@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(7f8cd25e-7ce9-4852-8538-76e46dea9762), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:127:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m127 |[0m    [33mdef[0m [36mvalue[0m: [35mNothing[0m = fail([31m"An empty tree."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         Not found: fail[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E049] Reference Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:128:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m128 |[0m    [33mdef[0m [36mleft[0m: [35mSearchTree[Nothing][0m = fail([31m"An empty tree."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |              [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |              Reference to SearchTree is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m    |              it is both defined in [33mmethod[0m [35mMain[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |              and inherited subsequently in [33mobject[0m [35mEmpty[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:128:36 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m128 |[0m    [33mdef[0m [36mleft[0m: [35mSearchTree[Nothing][0m = fail([31m"An empty tree."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                    [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                    Not found: fail[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:129:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m129 |[0m    [33mdef[0m [36mright[0m: [35mSearchtree[Nothing][0m = fail([31m"An empty tree."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |               [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |               Not found: type Searchtree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:129:37 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m129 |[0m    [33mdef[0m [36mright[0m: [35mSearchtree[Nothing][0m = fail([31m"An empty tree."[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                     [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                     Not found: fail[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:142:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m  [33mimport[0m Searchtree._[0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Not found: Searchtree[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Oct 10, 2021, 8:32:12 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

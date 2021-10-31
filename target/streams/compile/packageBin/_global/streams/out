@@ -1,13 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\ProgrammingProjects\exersize1\target\scala-3.0.2\scala3-simple_3-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\ProgrammingProjects\exersize2\target\scala-3.0.2\scala3-simple_3-0.1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize1\target\scala-3.0.2\classes\Main$package$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize1\target\scala-3.0.2\classes\Main$package.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Main$package.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize1\target\scala-3.0.2\classes\Main$package.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize1\target\scala-3.0.2\classes\main.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize1\target\scala-3.0.2\classes\main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$Empty$1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$Empty$1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$Node$1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$Node$1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$Node$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$Node$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$SearchTree$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$SearchTree$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$SearchTree$2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package$SearchTree$2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes\Main.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

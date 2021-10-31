@@ -1,0 +1,68 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(2bfc4821-b24d-47c8-a5f2-14474719f701), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:83:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m83 |[0m  [33mcase class[0m [35mEmpty[0m[[35mA[0m]([36mNul[0m, Nul, Nul) [33mextends[0m [35mSearchTree[A][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         ':' expected, but ',' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:90:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m    [33mcase[0m Empty => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m   |         pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:91:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m   |              pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:91:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m   |                      pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:92:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m92 |[0m    [33mcase[0m Node(Empty,y,rgt) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m   |              pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:100:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    [33mcase[0m Empty => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    |         pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:101:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |              Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m    |              Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    |              pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:101:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |                      [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                      Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m    |                      Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    |                      pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:102:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m    [33mcase[0m Node(lft,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    Found:    Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    Required: SearchTree[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    |                    pattern type is incompatible with expected type[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 3, 2021, 1:12:02 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

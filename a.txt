@@ -1,0 +1,71 @@
+[info] Loading settings from plugins.sbt ...
+[info] Loading project definition from C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw2-UnBothered1\project
+[info] Loading settings from build.sbt ...
+[warn]  [E1] hw2.scala
+[warn]       pattern var y in method zig is never used; `y@_' suppresses this warning
+[warn]       L76:    case Node(Empty,y,Empty) => tree
+[warn]       L76:                    ^
+[warn]  [E2] hw2.scala
+[warn]       pattern var y in method zig is never used; `y@_' suppresses this warning
+[warn]       L77:    case Node(Empty,y,rgt) => tree
+[warn]       L77:                    ^
+[warn]  [E3] hw2.scala
+[warn]       pattern var rgt in method zig is never used; `rgt@_' suppresses this warning
+[warn]       L77:    case Node(Empty,y,rgt) => tree
+[warn]       L77:                      ^
+[warn]  [E4] hw2.scala
+[warn]       pattern var y in method zag is never used; `y@_' suppresses this warning
+[warn]       L86:    case Node(Empty,y,Empty) => tree
+[warn]       L86:                    ^
+[warn]  [E5] hw2.scala
+[warn]       pattern var lft in method zag is never used; `lft@_' suppresses this warning
+[warn]       L87:    case Node(lft,y,Empty) => tree
+[warn]       L87:              ^
+[warn]  [E6] hw2.scala
+[warn]       pattern var y in method zag is never used; `y@_' suppresses this warning
+[warn]       L87:    case Node(lft,y,Empty) => tree
+[warn]       L87:                  ^
+[warn]  [E7] hw2.scala
+[warn]       match may not be exhaustive.
+[warn]       It would fail on the following inputs: Node(Node(_, _, _), _, Empty), Node(Node(_, _, _), _, Node(_, _, _))
+[warn]       L74:  def zig(tree: SearchTree[Int]): SearchTree[Int] = tree match {
+[warn]       L74:                                                    ^
+[warn]  [E8] hw2.scala
+[warn]       match may not be exhaustive.
+[warn]       It would fail on the following inputs: Node(Empty, _, Node(_, _, _)), Node(Node(_, _, _), _, Node(_, _, _))
+[warn]       L84:  def zag(tree: SearchTree[Int]): SearchTree[Int] = tree match {
+[warn]       L84:                                                    ^
+[warn] hw2.scala: L74 [E7], L76 [E1], L77 [E2], L77 [E3], L84 [E8], L86 [E4], L87 [E5], L87 [E6]
+[warn] C:\Users\x03099\Documents\DONTDELETE\Classes\Cow Classes S1\CS478 Programming Languages\Homeworks\hw2-UnBothered1\hw2.scala:81:0: Avoid whitespace at the end of a line. It can cause needless differences for version control.
+[warn] warnings exist
+CS478: hw2 (EECS Tester 0.4.0 dev)
+Unbothered1
+Data source: hw2.tests (remote)
+Begin testing alternate at Thu Aug 30 02:36:22 EDT 2018
+...............
+Passed 15/15 tests in 0.117 seconds.
+Begin testing unzip at Thu Aug 30 02:36:22 EDT 2018
+.....
+Passed 5/5 tests in 0.007 seconds.
+Begin testing cleanup at Thu Aug 30 02:36:22 EDT 2018
+.............
+Passed 13/13 tests in 0.017 seconds.
+Begin testing zig at Thu Aug 30 02:36:22 EDT 2018
+...
+Test #4 *** FAILED ***
+  tree =
+     2
+    /
+   1
+  scala.MatchError: Node(Node(Empty,1,Empty),2,Empty) (of class eecs.searchtrees.Node)
+    at zig(hw2.scala:74)
+Test #5 *** FAILED ***
+  tree =
+     2
+    / \
+   1   3
+  scala.MatchError: Node(Node(Empty,1,Empty),2,Node(Empty,3,Empty)) (of class eecs.searchtrees.Node)
+    at zig(hw2.scala:74)
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Passed 3/108 tests in 0.203 seconds.

@@ -1,0 +1,80 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(2ba6279c-ef05-44d9-8a4f-6b8eda0e986b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\ProgrammingProjects\exersize2\target\scala-3.0.2\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:87:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m  [33mdef[0m [36mzig[0m([36mtree[0m: [35mSearchTree[Int][0m): [35mSearchTree[Int][0m = tree [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Not found: type SearchTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:87:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m  [33mdef[0m [36mzig[0m([36mtree[0m: [35mSearchTree[Int][0m): [35mSearchTree[Int][0m = tree [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  Not found: type SearchTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:88:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m88 |[0m    [33mcase[0m Empty => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:89:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:89:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:89:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:90:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m    [33mcase[0m Node(Empty,y,rgt) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:90:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m    [33mcase[0m Node(Empty,y,rgt) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:97:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m  [33mdef[0m [36mzag[0m([36mtree[0m: [35mSearchTree[Int][0m): [35mSearchTree[Int][0m = tree [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Not found: type SearchTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:97:34 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m  [33mdef[0m [36mzag[0m([36mtree[0m: [35mSearchTree[Int][0m): [35mSearchTree[Int][0m = tree [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  [31m^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                  Not found: type SearchTree[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:98:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m98 |[0m    [33mcase[0m Empty => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:99:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |         Not found: Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:99:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |              [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |              Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:99:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m    [33mcase[0m Node(Empty,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:100:9 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    [33mcase[0m Node(lft,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Not found: Node[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: C:\ProgrammingProjects\exersize2\src\main\scala\main.scala:100:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    [33mcase[0m Node(lft,y,Empty) => tree[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    [31m^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    Not found: Empty[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Oct 1, 2021, 9:51:29 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
